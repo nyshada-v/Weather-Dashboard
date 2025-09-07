@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data with Graph</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js for graph -->
+    <link rel="stylesheet" href="assets/styles/style.css"> <!-- Link to custom CSS file -->
+</head>
+<body>
+    <h1>Weather Data</h1>
+    
+    <div class="search-container">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="updateWeather()">Search</button>
+    </div>
+
+    <canvas id="weatherChart" width="300" height="100"></canvas> <!-- Graph will be displayed here -->
+    
+    <script src="weather.js"></script> 
+</body>
+</html>
