@@ -19,4 +19,23 @@ responsive design for both desktop and mobile.
 - JavaScript (ES6)
 - Chart.js
 - OpenWeather API
-## Screenshot
+## 📸 Screenshot
+![Weather Dashboard Screenshot](assets/weather-app.png)
+
+##How to run locally
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/weather-dashboard.git
+2. Open index.html in a browser
+
+3. (Optional) Replace the API key in weather.js with your own
+from OpenWeather
+
+## 🚀 Future Enhancements
+- Add localStorage caching to reduce API calls
+- Deploy app on AWS S3 + CloudFront
+- Add 5-day forecast view
+- Dark mode toggle
+- 
+## 📜 License
+This project is licensed under the MIT License.
